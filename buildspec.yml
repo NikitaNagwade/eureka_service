@@ -4,11 +4,11 @@ phases:
   build:
     commands:
       - echo "Packaging JAR file..."
-      - mvn clean package -DskipTests
+      - mvn clean package 
 
   post_build:
     commands:
-      - echo "Build complete."
+      - echo Build complete.
 
 artifacts:
   files:
