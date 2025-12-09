@@ -12,5 +12,5 @@ phases:
 
 artifacts:
   files:
-    - target/Eureka_Server.jar
+    - target/*.jar
   discard-paths: yes
